@@ -13,6 +13,7 @@ public class CompanyMain {
 			System.out.println("사원번호 =" +emp.getEmpNum());
 			System.out.println("사원이름 =" +emp.getEmpName());
 			System.out.println("급여 = "+ emp.getPay());
+			System.out.println("인센티브 = "+ emp.computeIncentive());
 			System.out.println("===============");
 		}
 		
